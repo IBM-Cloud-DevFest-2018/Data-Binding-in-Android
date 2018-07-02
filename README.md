@@ -354,8 +354,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolbar);
 
         user = new User();
-        user.setName("Ravi Tamada");
-        user.setEmail("ravi@androidhive.info");
+        user.setName("Kunal Malhotra");
+        user.setEmail("kunal.malhotra1@ibm.com");
 
         binding.setUser(user);
 
@@ -544,8 +544,8 @@ public class MyClickHandlers {
     }
 
     public void onFabClicked(View view) {
-        user.setName("Ravi");
-        user.setEmail("ravi8x@gmail.com");
+        user.setName("Kunal");
+        user.setEmail("kunal.malhotra1@ibm.com");
     }
 }
 ```
@@ -587,8 +587,8 @@ public class MyClickHandlers {
     }
 
     public void onFabClicked(View view) {
-        user.name.set("Ravi");
-        user.email.set("ravi8x@gmail.com");
+        user.name.set("Kunal");
+        user.email.set("kunal.malhotra1@ibm.com");
     }
 }
 ```
