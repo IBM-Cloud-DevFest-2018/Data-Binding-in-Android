@@ -136,7 +136,7 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import info.androidhive.databinding.databinding.ActivityMainBinding;
+import com.knrmalhotra.databinding.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -338,7 +338,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.knrmalhotra.databinding.databinding.ActivityMainBinding;
+import ccom.knrmalhotra.databinding.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -557,7 +557,7 @@ If your object class has fewer properties to be updated or if you don’t want t
 The same User class can be modified as below using ObservableFields.
 
 ```
-package info.androidhive.databinding;
+package com.knrmalhotra.databinding;
 
 import android.databinding.ObservableField;
 
@@ -600,7 +600,7 @@ You can also bind an ImageView to an URL to load the image. To bind an URL to Im
 Below, profileImage variable is bound to android:profileImage attribute. The image will be loaded using Glide or Picasso image library.
 
 ```
-package info.androidhive.databinding;
+package com.knrmalhotra.com.databinding;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
